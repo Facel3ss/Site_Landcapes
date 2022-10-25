@@ -1,0 +1,43 @@
+<header>
+    <link rel="stylesheet" href="/styles/header.css">
+    <div class="container">
+        <div class="logo">
+            <a href="/"><img src="/img/logo.png" alt="logo"></a>
+        </div>
+        <div class="menu">
+            <ul class="nav-bar">
+                <!-- Check if pages are active and render the navagation bar accordingly -->
+                <li><a href="/">
+                {{#if active.home}}<img src="/img/navigation_active/btn_home.jpg">
+                {{else}} <img src="/img/navigation/btn_home.jpg">
+                {{/if}}
+                </a></li>
+
+
+                <li><a href="/about">
+                {{#if active.about}}<img src="/img/navigation_active/btn_about.jpg">
+                {{else}} <img src="/img/navigation/btn_about.jpg">
+                {{/if}}
+                </a></li>
+
+                <li><a href="/contact">
+                {{#if active.contact}}<img src="/img/navigation_active/btn_contact.jpg">
+                {{else}} <img src="/img/navigation/btn_contact.jpg">
+                {{/if}}
+                </a></li>
+
+                <li><a href="/gardens">
+                {{#if active.gardens}}<img src="/img/navigation_active/btn_gardens.jpg">
+                {{else}} <img src="/img/navigation/btn_gardens.jpg">
+                {{/if}}
+                </a></li>
+
+                <li><a href="/plants">
+                {{#if active.plants}}<img src="/img/navigation_active/btn_plants.jpg">
+                {{else}} <img src="/img/navigation/btn_plants.jpg">
+                {{/if}}
+                </a></li>
+            </ul>
+        </div>
+    </div>
+</header>

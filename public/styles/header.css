@@ -1,0 +1,37 @@
+.container {
+    background-image: url("/img/navigation/topbar.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-bar {
+    list-style: none;
+    overflow: hidden;
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav-bar a{
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
