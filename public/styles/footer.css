@@ -1,0 +1,63 @@
+footer {
+    background-color: rgb(87, 87, 87);
+    color: #fff;
+    padding: 10px;
+}
+
+.contact-info {
+    display: inline-block;
+    width: 450px;
+    padding: 5px;
+    margin-top: 2.5px;
+}
+
+.contact-info ul{
+    list-style: none;
+    float: left;
+}
+
+.social-media {
+    width: 450px;
+    float: right;
+}
+
+.fa {
+    box-sizing: border-box;
+    transform: scale(0.5);
+    padding: 20px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    box-sizing: inherit;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    box-sizing: inherit;
+}
+
+.fa-instagram {
+    background: #c74bac;
+    color: white;
+    box-sizing: inherit;
+}
+
+.copyright {
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
