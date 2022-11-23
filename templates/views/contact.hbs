@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melbourne Landscapes - About</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="icon" href="/img/favicon.ico">
+    <script src="/js/contact.js" defer></script>
+</head>
+<body>
+    {{> header}}
+    <div class="content">
+    <div class="about">
+        <div class="about-contact-info">
+            <h2>Contact Us!</h2>
+            <p>Feel free to contact us by phone or email.</p>
+            <p>We will make an appointment with you to survey the areas you need redesigned, and will then provide you with a quote for the design, materials and work.</p>
+
+            <div>
+                <p style="margin:0px;">Phone: <a href="tel:+9887 7889" class="fax link">9887 7889</a></p>
+                <p style="margin:0px;">Fax: <a href="tel:+9887 7881" class="ph link">9887 7881</a></p>
+            </div>
+
+            <div>
+                <p>Email: <a href="mailto:melbournelandscapers@grass.net.au" class="email link">melbournelandscapers@grass.net.au</a>
+            </div>
+            
+        </div>
+        
+        <div enctype = "multipart/form-data" method="post" action="send" class="about-contact-form" id="contact-form">
+            <h2>Email Us!</h2>
+            <form class="email-us">
+                <div class="name">
+                    <label for="name">Name <span>*</span></label>
+                    <input type="text" name="yourname" class="contact-form-text" placeholder="Your name" required>
+                </div>
+
+                <div class="email">
+                    <label for="email">Email <span>*</span></label>
+                    <input type="email" name="youremail" placeholder="Your Email" class="contact-form-text" required>
+                </div>
+
+                <div class="subject">
+                    <label for="subject">Subject <span>*</span></label>
+                    <input type="text" name="yoursubject" placeholder="Subject" class="contact-form-text" required>
+                </div>
+
+                <div class="message">
+                    <label for="message">Message <span>*</span></label>
+                    <textarea name="yourmessage" placeholder="Message" class="contact-form-message"required></textarea>
+                </div>
+
+                <div class="submit">
+                    <input type="submit" value="Submit" class="contact-form-btn">
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    {{> footer}}
+</body>
+</html>

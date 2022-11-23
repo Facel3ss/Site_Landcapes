@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .container {
     background-image: url("/img/navigation/topbar.jpg");
     background-repeat: no-repeat;

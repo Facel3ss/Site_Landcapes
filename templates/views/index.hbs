@@ -5,11 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/index.css">
+    <script src="/js/index.js" defer></script>
     <title>Melbourne Landscapes</title>
+    <link rel="icon" href="/img/favicon.ico">
 </head>
 <body>
     {{> header}}
-    
+    <div class="slides">
+    <div class="slideshow-container">
+        <div class="Slide fade">
+            <div class="number-text">1 / 4</div>
+            <img src="/img/slideshow/1.jpg" alt="#" width="100%" height="100%">
+            <div class="text">Melbourne Landscaping</div>
+        </div>
+
+        <div class="Slide fade">
+            <div class="number-text">2 / 4</div>
+            <img src="/img/slideshow/2.jpg" alt="#" width="100%" height="100%">
+            <div class="text">Melbourne Landscaping</div>
+        </div>
+
+        <div class="Slide fade">
+            <div class="number-text">3 / 4</div>
+            <img src="/img/slideshow/3.jpg" alt="#" width="100%" height="100%">
+            <div class="text">Melbourne Landscaping</div>
+        </div>
+
+        <div class="Slide fade">
+            <div class="number-text">4 / 4</div>
+            <img src="/img/slideshow/4.jpg" alt="#" width="100%" height="100%">
+            <div class="text">Melbourne Landscaping</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    </div>
+</div>
     {{> footer}}
 </body>
 </html>
